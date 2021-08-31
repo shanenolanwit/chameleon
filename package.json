@@ -1,0 +1,23 @@
+{
+  "name": "chameleon",
+  "version": "1.0.0",
+  "description": "For converting markdown to LaTeX and PDF",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "clean": "rm -rf latex && rm -rf pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanenolanwit/chameleon.git"
+  },
+  "author": "Shane Nolan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shanenolanwit/chameleon/issues"
+  },
+  "homepage": "https://github.com/shanenolanwit/chameleon#readme",
+  "dependencies": {
+    "node-latex": "^3.0.0"
+  }
+}
